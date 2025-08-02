@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌸CuraBélle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="branding">
+        <h1>🌸CuraBélle</h1>
+        <span class="tagline">–- "Medically Inspired, Naturally Beautiful."</span>
+    </div>
+    
+    <div>
+      <button id="themeToggle">🌓</button>
+      <button class="cartbuttons" onclick="scrollToCart()">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Extra Heading -->
+     <h3 class="headline">🌿Start Your Skincare Journey by Type🌿</h3>
+
+     <p class="section-subtitle">Explore what suits your face, hair, and body — because every skin deserves care.</p>
+
+
+    <!-- Face Care -->
+    <section>
+      <h2>✨ Face Care</h2>
+      <div class="quote">“Invest in your skin. It’s going to represent you for a long time.”</div>
+      <div class="products" id="facecare"></div>
+    </section>
+
+    <!-- Hair Therapy -->
+    <section>
+      <h2>💆 Hair Therapy</h2>
+      <div class="quote">“Your hair is your crown — treat it like royalty.”</div>
+      <div class="products" id="haircare"></div>
+    </section>
+
+    <!-- Body Wellness -->
+    <section>
+      <h2>🧘 Body Wellness</h2>
+      <div class="quote">“Confidence is the best outfit. Rock it and own it.”</div>
+      <div class="products" id="bodycare"></div>
+    </section>
+
+
+    <!-- Combo Offer -->
+    <section>
+    <h2>🎁 Buy Combo & Get Free Roller Set</h2>
+    <div class="quote">“Pamper yourself with our best-sellers + a FREE roller set!”</div>
+    <div class="products" id="combos"></div>
+
+    <div class="plusCombo">
+        <div class="plus"> + </div>
+        <div class="plus"> + </div>
+    </div>
+    <!-- Free Gift Display -->
+    <div class="products">
+    <div class="product-card">
+        <img src="/images/freeRoller.jpg" alt="Free Roller Set">
+        <h3>Free Facial Roller Set</h3>
+        <p>Included with these combo purchase!</p>
+        <button disabled style="background-color: gray;">🎁 Free Gift</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/freeRoller2.jpg" alt="Free Roller Set">
+        <h3>Free Facial Roller Set</h3>
+        <p>Included with these combo purchase!</p>
+        <button disabled style="background-color: gray;">🎁 Free Gift</button>
+    </div>
+</div>
+</section>
+
+
+
+    <!-- Cart Section -->
+    <section id="cart-section">
+      <h2>🛍️ Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: ₹<span id="cart-total">0</span></p>
+      <button class="cartbuttons" onclick="checkout()">Checkout</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
