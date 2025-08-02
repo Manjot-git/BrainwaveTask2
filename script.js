@@ -1,25 +1,25 @@
 const products = [
   // Face Care
-  { id: 1, name: "HydraFace Cleanser", price: 599, image: "/images/hydraCleanser.jpg", category: "face" },
-  { id: 2, name: "Moisture Boost Cream", price: 699, image: "/images/moistureboostcream.jpg", category: "face" },
-  { id: 3, name: "Brightening Peel Mask", price: 699, image: "/images/brightpeelmask.jpg", category: "face" },
-  { id: 4, name: "Under Eye Repair", price: 599, image: "/images/underEyeRepair.jpg", category: "face" },
+  { id: 1, name: "HydraFace Cleanser", price: 599, image: "images/hydraCleanser.jpg", category: "face" },
+  { id: 2, name: "Moisture Boost Cream", price: 699, image: "images/moistureboostcream.jpg", category: "face" },
+  { id: 3, name: "Brightening Peel Mask", price: 699, image: "images/brightpeelmask.jpg", category: "face" },
+  { id: 4, name: "Under Eye Repair", price: 599, image: "images/underEyeRepair.jpg", category: "face" },
 
   // Hair Therapy
-  { id: 5, name: "Hair Strength Serum", price: 799, image: "/images/hairStrengthSerum.jpg", category: "hair" },
-  { id: 6, name: "Scalp Detox Oil", price: 499, image: "/images/scalpDetoxOil.png", category: "hair" },
-  { id: 7, name: "Anti-Dandruff Shampoo", price: 399, image: "/images/shampoo2.jpg", category: "hair" },
-  { id: 8, name: "Keratin Repair Mask", price: 899, image: "/images/KeratinRepairMask.jpg", category: "hair" },
+  { id: 5, name: "Hair Strength Serum", price: 799, image: "images/hairStrengthSerum.jpg", category: "hair" },
+  { id: 6, name: "Scalp Detox Oil", price: 499, image: "images/scalpDetoxOil.png", category: "hair" },
+  { id: 7, name: "Anti-Dandruff Shampoo", price: 399, image: "images/shampoo2.jpg", category: "hair" },
+  { id: 8, name: "Keratin Repair Mask", price: 899, image: "images/KeratinRepairMask.jpg", category: "hair" },
 
   // Body Wellness
-  { id: 9, name: "Body Butter Smooth", price: 649, image: "/images/bodyButterSmooth.png", category: "body" },
-  { id: 10, name: "Foot Relief Cream", price: 399, image: "/images/FootReliefCream.jpg", category: "body" },
-  { id: 11, name: "Soothing Aloe Lotion", price: 549, image: "/images/aleoLotion.jpg", category: "body" },
-  { id: 12, name: "Vitamin E Body Scrub", price: 749, image: "/images/VitaminEBodyScrub.jpg", category: "body" },
+  { id: 9, name: "Body Butter Smooth", price: 649, image: "images/bodyButterSmooth.png", category: "body" },
+  { id: 10, name: "Foot Relief Cream", price: 399, image: "images/FootReliefCream.jpg", category: "body" },
+  { id: 11, name: "Soothing Aloe Lotion", price: 549, image: "images/aleoLotion.jpg", category: "body" },
+  { id: 12, name: "Vitamin E Body Scrub", price: 749, image: "images/VitaminEBodyScrub.jpg", category: "body" },
 
   // Combo Offers
-  { id: 13, name: "Face & Hair Combo", price: 1299, image: "/images/combo1.jpg", category: "combo" },
-  { id: 14, name: "Hair & Body Combo", price: 1399, image: "/images/combo2.jpg", category: "combo" }
+  { id: 13, name: "Face & Hair Combo", price: 1299, image: "images/combo1.jpg", category: "combo" },
+  { id: 14, name: "Hair & Body Combo", price: 1399, image: "images/combo2.jpg", category: "combo" }
 ];
 
 let cart = [];
@@ -90,3 +90,4 @@ document.getElementById("themeToggle").onclick = () => {
 };
 
 renderProducts();
+
