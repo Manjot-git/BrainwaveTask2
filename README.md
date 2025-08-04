@@ -29,21 +29,21 @@
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/view1.png" width="300"/>
+      <img src="ScreenShots/view1.png" width="300"/>
       <p><strong>🌿 Home Page</strong></p>
     </td>
     <td align="center">
-      <img src="screenshots/view2.png" width="300"/>
+      <img src="ScreenShots/view2.png" width="300"/>
       <p><strong>🌙 Dark Theme Product Listing</strong></p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/view3.png" width="300"/>
+      <img src="ScreenShots/view3.png" width="300"/>
       <p><strong>🛒 Cart Section</strong></p>
     </td>
     <td align="center">
-      <img src="screenshots/view4.png" width="300"/>
+      <img src="ScreenShots/view4.png" width="300"/>
       <p><strong>🎁 Combo Offer</strong></p>
     </td>
   </tr>
